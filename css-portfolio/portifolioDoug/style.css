@@ -1,0 +1,297 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,500;0,700;1,400;1,600;1,700&display=swap');
+
+
+
+
+
+
+
+
+/*CABEÇÁRIO-HEADER*/
+
+html{
+    box-sizing:border-box;
+}
+
+*,*:before,*:after{
+    box-sizing:inerit;
+}
+
+
+
+header{
+   background: url(//www.devmedia.com.br/view/img/grid.png), linear-gradient(to right, rgba(0, 126, 174, .85), rgba(26, 193, 187, .85));
+    
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    color: #f7fff7;
+    padding:0px ;
+    margin-top: 0px;
+    border-top: px;
+    font-size: 130%;
+    box-shadow: inset 1px 1px 4px 1px rgba(0, 0, 0, 0.341);
+}
+
+.linha header {
+    
+    position: sticky;
+
+}
+
+
+
+
+body {
+  color: #343434;
+  margin: 0px;
+  padding-left: 0px;
+  position: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  
+}
+
+img {
+    width: 300px;
+    float: left;
+    padding-right: 5%;
+    padding-bottom:8%;
+    padding-top:1%;
+
+}
+
+a {
+    color: #fe6601;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+h2{
+    margin: 0;
+}
+
+h1,h2{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: lighter;
+
+}
+
+
+.content-wrap  {
+    width: auto;
+    display: grid;
+    justify-content: center;
+    padding: 60px 60px;
+    padding-left: 10px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: lighter;
+
+    
+    
+}
+
+
+.content-wrap  p, h2 ,h3, a, h1{
+    padding-left: 0px;
+    margin: 0 auto;
+    text-align: justify;
+    max-width: 800px;;
+    margin-left: 0px;
+    text-size-adjust: 130%;
+}
+
+
+
+
+/* Profile-------------------------*/
+
+
+
+header h1 {
+    margin-left: 0px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border-left: center;
+    padding-top: 10px;
+}
+    
+
+
+header h2 {
+    
+}
+
+header p {
+    
+    
+}
+
+
+
+
+
+/*PROJECTS*/
+
+.projects {
+    background: #f7fff7;
+    
+}
+
+.projects a  {
+    
+
+}
+
+
+.projects p h3 {
+    
+    
+}
+.projects a {
+    
+   
+}
+
+.projects-item img {
+          box-shadow: inset 1px 1px 4px 1px rgba(0, 0, 0, 0.341);
+
+   
+}
+
+
+
+.btn{
+       
+    
+}
+
+.work-experience{
+    background: #a1c6d7;
+    box-shadow: inset 1px 1px 4px 1px rgba(0, 0, 0, 0.341);
+
+}
+
+
+.job-item{
+   background: fixed;
+
+}
+
+.education-item-details{
+box-shadow: inset 1px 1px 4px 1px rgba(0, 0, 0, 0.341);
+
+}
+
+.education{
+    background-image: url(..//images/joanna-kosinska-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-position: top right;
+}
+
+/*RODAPE*/
+
+footer {
+    background-color: #343434;
+    color: #f7fff7;
+    
+    
+}
+
+.contact-list{
+    grid: center;
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: baseline;
+}
+
+
+
+.contact-list a {
+    padding: 15px;
+    margin: 15px;
+    border: 10px;
+    display: inline-block;
+
+}
+
+.icons {
+    width:100vw;
+  height:3vh;
+  background:#2200ff;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+    position: sticky;
+
+}
+
+
+.ultimo{
+    background:lightsteelblue;
+  margin-bottom:10px;
+  width:400px;
+  display:flex;
+  flex-wrap:wrap;
+    
+}
+
+/*  Responsive 
+--------------------------------------------------------*/
+@media screen and  (max-width: 749px) {
+   header, footer{
+    
+   }
+   
+    h1{
+    font-size: 75px;
+    line-height: 0.9;
+    margin-bottom: 20px;
+   } 
+
+   .content-wrap{
+       padding-left: 25px;
+       align-items: left;
+       text-align: left;
+   }
+
+  footer {
+    background-color: #343434;
+    color: #f7fff7;
+    
+    
+}
+
+.contact-list{
+    grid-auto-flow: column;
+    align-items: center;
+    list-style-type: none;
+    display: block;
+    justify-content: baseline;
+}
+
+
+
+.contact-list a {
+    padding: 15px;
+    margin: 15px;
+    border: 10px;
+    display: inline-block;
+
+}
+
+
+
+
+    
+}
+    
+}

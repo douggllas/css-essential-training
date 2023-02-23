@@ -31,6 +31,7 @@ h2 {
 }
 h1, h2 {
   font-family: 'Caveat', cursive;
+  line-height: 1.5;
 }
 .content-wrap {
   width: 800px;
@@ -83,6 +84,7 @@ header {
 
 /* Contact Info
 ------------------------------------*/
+
 footer {
   background: #343434;
   color: #F7FFF7;
